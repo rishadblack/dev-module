@@ -1,0 +1,33 @@
+{
+  "name": "rishadblack/dev-module",
+  "description": "Devlopment Friendly Module",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "role": "Developer",
+    "name": "S M Rishad",
+    "email": "rishad.black@gmail.com",
+    "homepage": "https://www.smrishad.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Rishadblack\\DevModule\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rishadblack\\DevModule\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
