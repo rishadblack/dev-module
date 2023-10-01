@@ -20,7 +20,16 @@
     }
   },
   "require": {
-    "php": "^8.0"
+    "php": "^8.0",
+    "ext-exif": "*",
+    "ext-fileinfo": "*",
+    "ext-json": "*",
+    "illuminate/bus": "^9.18|^10.0",
+    "illuminate/conditionable": "^9.18|^10.0",
+    "illuminate/console": "^9.18|^10.0",
+    "illuminate/database": "^9.18|^10.0",
+    "illuminate/pipeline": "^9.18|^10.0",
+    "illuminate/support": "^9.18|^10.0"
   },
   "require-dev": {},
   "minimum-stability": "dev",
@@ -29,5 +38,12 @@
     "sort-packages": true,
     "preferred-install": "dist",
     "optimize-autoloader": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rishadblack\\DevModule\\Provider\\DevModuleServiceProvider"
+      ]
+    }
   }
 }
