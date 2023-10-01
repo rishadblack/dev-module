@@ -42,7 +42,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Rishadblack\\DevModule\\Provider\\DevModuleServiceProvider"
+        "Rishadblack\\DevModule\\Providers\\DevModuleServiceProvider"
       ]
     }
   }
